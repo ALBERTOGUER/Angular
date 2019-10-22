@@ -1,0 +1,54 @@
+header {
+  background: #223140;
+  width: 100vw;
+  height: 15vh;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  z-index: 2;
+
+}
+
+#simbolo {
+  height: 100%;
+  width: 25%;
+  background: #EBCD22;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.spans {
+
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#esfera {
+
+  font-size: 22px;
+  font-weight: 800 !important;
+
+}
+
+#construcciones {
+
+  font-size: 22px;
+  font-weight: 60;
+}
+
+#span {
+
+  background: #223140;
+  width: 60%;
+  /* height: 50%; */
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+
+}
