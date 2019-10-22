@@ -27,18 +27,37 @@ h1 {
   width: 50%;
   height: 15%;
   background: #EBCD22;
-  margin: 5% 25%;
+  margin: 3% 25% 5% 25%;
   
 }
 .galeria{
     width: 70%;
-    height: 60%;
-    background: chartreuse;
+    height: 75%;
+    /* background: chartreuse; */
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .secciones{
 height: 100%;
 width: 32%;
-background: blue;
+background: #f7f7f7;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+}
+p{
+  width: 90%;
+  height: 54%;
+  background: #f7f7f7;
+  font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+color: #3B3A3A;
+}
+span{
+  color: #3D5975;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  display: block;
 }

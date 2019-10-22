@@ -1,0 +1,97 @@
+section {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  /* background: #7fff00; */
+  padding-top: 4%;
+  display: flex;
+}
+
+.secciones {
+  width: 50%;
+  height: 100%;
+  /* background: blue; */
+
+}
+
+#seccion1 {
+  background: #f7f7f7;
+  width: 38%;
+  padding-left: 12%;
+}
+
+#seccion2 {
+  background: url(./../imagenes/773716.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* overflow: hidden; */
+  background-attachment: fixed;
+
+
+}
+
+span {
+  display: block;
+  font-size: 55px;
+  font-family: 'Open Sans', sans-serif;
+  color: #c6c6c6;
+
+}
+
+p {
+  font-size: 17px;
+  width: 90%;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+  margin-top: 40px;
+  color: #3b3a3a;
+}
+
+#linea {
+  display: block;
+  width: 20%;
+  height: 10px;
+  background: #EDCD1F;
+  margin-top: 15px;
+}
+
+.sec2 {
+  width: 100%;
+  height: 40vh;
+  background: #EDCD1F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+}
+
+.lineas {
+  background: white;
+  width: 2px;
+  height: 30%;
+
+}
+
+.division {
+  /* background: blue; */
+  width: 18%;
+  height: 60%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.span {
+  font-size: 60px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-weight: bolder;
+}
+.texto{
+    font-size: 22px;
+    text-align: center;
+    color: #3D5975;
+    font-weight: bold;
+}

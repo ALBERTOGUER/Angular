@@ -4,7 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent} from './components/navbar/navbar.component';
 import { PresentacionComponent} from './components/presentacion/presentacion.component'
-import { ServiciosComponent} from './components/servicios/servicios.component'
+import { ServiciosComponent} from './components/servicios/servicios.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component'
   
 
 @NgModule({
@@ -12,7 +14,9 @@ import { ServiciosComponent} from './components/servicios/servicios.component'
     AppComponent,
     NavbarComponent,
     PresentacionComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    NosotrosComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule
